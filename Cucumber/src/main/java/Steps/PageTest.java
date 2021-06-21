@@ -22,6 +22,7 @@ public class PageTest{
 	public void verify_WomenPage_present() {
 		pageObj.IsElementPresent(pageObj.getWomenPageElement());
 		System.out.println("WomenPage Present");
+		System.out.println("WomenPage Present");
 	}
 	
 	@Then("^quit Browser$")
